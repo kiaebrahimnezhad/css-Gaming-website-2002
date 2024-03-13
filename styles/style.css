@@ -10,11 +10,24 @@
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
   --black-700: #000;
+  --secondary: #FA8305;
+  --blueGradiant: #3B2A9F;
+  --box_bg: #1C140F;
+  --primary-100: #5141AA;
+
 }
 /* 3. and we use it like this */
 .elementOne {
   /* var(--"somekey-attr") */
   background-color: var(--black-700);
 }
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/fonts/Poppins-Black.ttf);
+}
 
 /* good luck */
+body{
+  background-color: var(--blueGradiant);
+  font-family: Poppins;
+}
