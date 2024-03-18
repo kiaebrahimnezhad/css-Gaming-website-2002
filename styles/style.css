@@ -112,13 +112,13 @@ header .menu .two{
   width: 195px;
   line-height: 24px;
 }
-.bigimage{
+.bigimageOne{
   width: 806px;
   margin-left: 773px;
   position: absolute;
   top: 0;
 }
-.bigimage img{
+.bigimageOne img{
   margin-top: 100px;
   width: 100%;
   height: 661px;
@@ -201,5 +201,93 @@ header .menu .two{
   height: 100%;
   border-radius: 20px;
 }
+
+.LoremOne{
+  clear: both;
+  width: 826px;
+  height: 132px;
+  position: absolute;
+  top: 1480px;
+  left: 320px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 66px;
+  color: #FFFFFF;
+}
+
+.LoremTwo{
+  color: #FFFFFF;
+  width: 545px;
+  height: 173px;
+  position: absolute;
+  top: 1679px;
+  left: 148px;
+  text-align: justify;
+}
+.LoremTwo .one{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 55px;
+}
+.LoremTwo .two{
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.bigimageTwo{
+  position: absolute;
+  top: 1903px;
+  left: 147px;
+  width: 1164px;
+  height: 462px;
+}
+.bigimageTwo img{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.Recent{
+  clear: both;
+  position: absolute;
+  top: 2508px;
+  left: 135px;
+  width: 1170px;
+  /* height: ; */
+  color: #FFFFFF;
+}
+.Recent .text{
+  text-align: center;
+  width: 497px;
+  margin: 0 33%; 
+}
+.Recent .text h1{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 57px;
+}
+.Recent .text p{
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26.25px;
+}
+
+
+.stay{
+  position: absolute;
+  top: 3420px
+}
+
+
+
+footer{
+  position: absolute;
+  top: 3980px;
+}
+
 
 
