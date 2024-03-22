@@ -368,24 +368,125 @@ header .menu .two{
   background-color: #FFFFFF;
   width: 381px;
   border-radius: 8px;
+}
+.Stay .input .two{
+  padding: 6px;
+}
+.Stay .input .two  form input{
+  margin-left: 20px;
+  border: none;
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
 }
-.Stay .input .two div{
-  width: 105px;
+.Stay .input .two  form button{
   background-color: var(--secondary);
-  color: #FFFFFF;
+  padding: 10px 17px;
+  border: none;
   border-radius: 8px;
-  padding: 10.5px;
-  margin: 6px;
+  margin-left: 90px;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19.5px;
+  text-align: center;
 }
+
 
 
 footer{
+   width: 100%;
+  /*height: 376px; */
   position: absolute;
   top: 3980px;
+  background-color: rgba(7, 7, 7, 1);
+  color: #FFFFFF;
 }
+footer .all{
+  margin-top: 79px;
+  margin-bottom: 29px;
+}
+footer .all .menu{
+  margin: 0 110px;
+}
+footer .all .menu div{
+  float: left;
+  margin:0 3.3%;
+  box-sizing: border-box;
+}
+footer .menu .lego{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+footer .menu .about ul{
+  font-weight: 500;
+  font-size: 17.5px;
+  line-height: 30px;
+}
+footer .menu .about li{
+  margin:  -3px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+footer .menu .Contact p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+footer .menu .Contact p:first-child{
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 30px;
+}
+footer .icons{
+  height: 160px;
+  position: relative;
+}
+footer .icons .allicon{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 110px;
+}
+footer .icons .allicon div{
+    padding: 11px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 13px;
+}
+footer .icons i{
+  color: rgba(0, 0, 0, 1);
+}
+footer .Copyright{
+  width: 100%;
+  border-top: 0.8px solid rgba(210, 210, 210, 1);
+  text-align: center;
+}
+footer .Copyright p{
+  margin-top: 29px;
+  font-size: 13px;
+}
+footer .Copyright span{
+  font-weight:900;
+  font-size: 14.5px;
+}
+
+
+/* footer .all .menu .lego{
+  position: absolute;
+  top: 0;
+  left: 101px;
+  right: 967px;
+}
+footer .all .menu .about{
+  position: absolute;
+  top: 0;
+  left: 551px;
+}
+footer .all .menu .lego */
+
 
 
 
