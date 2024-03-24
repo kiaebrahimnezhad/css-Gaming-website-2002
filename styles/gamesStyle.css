@@ -98,6 +98,7 @@ header{
 .path .four i{
     margin-left: 18px;
 }
+
 .bigimage{
     height: 656px;
     position: absolute;
@@ -109,3 +110,270 @@ header{
     width: 100%;
     height: 100%;
 }
+
+.work{
+    margin: 0 110px;
+    margin-top: 288px;
+}
+.work .why{
+    font-weight: 600;
+    font-size: 25px;  
+}
+.work .lorems{
+    margin-top: 64px;
+}
+.work .lorems > div {
+    background-color: var(--box_bg);
+    width: 32%;
+    margin: 0 1%;
+    float: left;
+    padding: 64px 37px;
+    border-radius: 20px;
+}
+.work .lorems > div .one a{
+    padding: 7px 25px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.work .lorems > div .two{
+    margin-top: 25px;
+}
+.work .lorems > div .two h1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.work .lorems > div .two p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.LoremImg{
+    clear: both;
+    margin-top: 197px;
+    width: 100%;
+    background-color: var(--box_bg);
+    height: 603px;
+}
+.LoremImg > div{
+    width: 50%;
+    float: left;
+}
+/* .LoremImg .one {
+    
+} */
+.LoremImg .one div{
+    padding: 0 105px;
+    padding-top: 113px;
+    height: 490px;
+}
+.LoremImg .two div{
+    margin-top: 134px;
+    margin-right: 203px;
+}
+.LoremImg .two div h1{
+    font-weight: 500;
+    font-size: 16px;
+}
+.LoremImg .two div p{
+    margin-top: 14px;
+}
+.LoremImg .one img{
+    width: 100%;
+    height: 100%;
+}
+
+.OurTeam{
+    clear: both;
+    margin: 0 85px;
+    margin-top: 148px;
+}
+.OurTeam .Our{
+    font-weight: 600;
+    font-size: 25px;
+}
+.OurTeam .box{
+    margin-top: 53px;
+}
+.OurTeam .box > div{
+    border-radius: 20px;
+    text-align: center;
+    width: 22.5%;
+    margin: 0 1.66%;
+    float: left;
+    padding: 0 93px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    background-color: var(--box_bg);
+}
+.OurTeam .box > div .one{
+    width: 123px;
+    height: 123px;
+}
+.OurTeam .box > div .one img{
+    width: 100%;
+    height: 100%;
+}
+
+.Stay{
+    color: #FFFFFF;
+    position: absolute;
+    top: 2783px;
+    left: 136px;
+    right: 136px;
+  }
+  .Stay .Lorem{
+    width: 545px;
+  }
+  .Stay .Lorem h1{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+  }
+  .Stay .Lorem p{
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .Stay .input{
+    background-color: var(--box_bg);
+    margin-top: 74px;
+    height: 189px;
+    position: relative;
+    border-radius: 15px;
+  }
+  .Stay .input .one{
+    position: absolute;
+    top: 40px;
+    left: 56px;
+    right: 478px;
+  }
+  .Stay .input .one h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .Stay .input .one p{
+    margin-top: 10px;
+    font-weight: 5400;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .Stay .input .two{
+    position: absolute;
+    top: 71px;
+    right: 50px;
+    color: #898989;
+    background-color: #FFFFFF;
+    width: 381px;
+    border-radius: 8px;
+  }
+  .Stay .input .two{
+    padding: 6px;
+  }
+  .Stay .input .two  form input{
+    margin-left: 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .Stay .input .two  form button{
+    background-color: var(--secondary);
+    padding: 10px 17px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 90px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19.5px;
+    text-align: center;
+  }
+
+  footer{
+    width: 100%;
+   /*height: 376px; */
+   position: absolute;
+   top: 3980px;
+   background-color: rgba(7, 7, 7, 1);
+   color: #FFFFFF;
+ }
+ footer .all{
+   margin-top: 79px;
+   margin-bottom: 29px;
+ }
+ footer .all .menu{
+   margin: 0 110px;
+ }
+ footer .all .menu div{
+   float: left;
+   margin:0 3.3%;
+   box-sizing: border-box;
+ }
+ footer .menu .lego{
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 300;
+ }
+ footer .menu .about ul{
+   font-weight: 500;
+   font-size: 17.5px;
+   line-height: 30px;
+ }
+ footer .menu .about li{
+   margin:  -3px 0;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+ }
+ footer .menu .Contact p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+ }
+ footer .menu .Contact p:first-child{
+   font-size: 17.5px;
+   font-weight: 500;
+   line-height: 30px;
+ }
+ footer .icons{
+   height: 160px;
+   position: relative;
+ }
+ footer .icons .allicon{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   top: 110px;
+ }
+ footer .icons .allicon div{
+     padding: 11px;
+     background-color: #FFFFFF;
+     border-radius: 50%;
+     font-size: 13px;
+ }
+ footer .icons i{
+   color: rgba(0, 0, 0, 1);
+ }
+ footer .Copyright{
+   width: 100%;
+   border-top: 0.8px solid rgba(210, 210, 210, 1);
+   text-align: center;
+ }
+ footer .Copyright p{
+   margin-top: 29px;
+   font-size: 13px;
+ }
+ footer .Copyright span{
+   font-weight:900;
+   font-size: 14.5px;
+ }
+
+
+
+
+
+
